@@ -18,7 +18,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-import java.awt.*;
+
 import java.util.HashMap;
 
 public class UserInterface implements IUserInterface.View,
@@ -80,6 +80,7 @@ public class UserInterface implements IUserInterface.View,
 
                 SudokuTextField tile = new SudokuTextField(xIndex,yIndex);
 
+
                 styleSudokuTile(tile, x, y);
 
                 tile.setOnKeyPressed(this);
@@ -92,7 +93,7 @@ public class UserInterface implements IUserInterface.View,
     }
 
     private void styleSudokuTile(SudokuTextField tile, int x, int y) {
-          javafx.scene.text.Font numberFont = new Font(32);
+          Font numberFont = new Font(32);
 
           tile.setFont(numberFont);
           tile.setAlignment(Pos.CENTER);
@@ -152,11 +153,11 @@ public class UserInterface implements IUserInterface.View,
         }
     }
 
-    private javafx.scene.shape.Rectangle getLine(double x,
-                                                 double y,
-                                                 double height,
-                                                 double width) {
-        javafx.scene.shape.Rectangle line = new javafx.scene.shape.Rectangle();
+    private Rectangle getLine(double x,
+                              double y,
+                              double height,
+                              double width) {
+        Rectangle line = new Rectangle();
 
         line.setX(x);
         line.setY(y);
