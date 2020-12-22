@@ -1,4 +1,5 @@
 # Sudoku-
+![App screenshot](https://github.com/swarajdesh/Covid-Cases/blob/master/Covid%20Cases.png)
 
 Algorithm help is taken from http://pi.math.cornell.edu/~mec/Summer2009/meerkamp/Site/Solving_any_Sudoku_II.html and also proper architecture design is maintained.
 
