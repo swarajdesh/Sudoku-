@@ -1,5 +1,5 @@
 # Sudoku-
-![App screenshot](https://github.com/swarajdesh/Covid-Cases/blob/master/Covid%20Cases.png)
+![App screenshot](https://github.com/swarajdesh/Sudoku-/blob/master/Screenshot_20201222-195206__01.jpg)
 
 Algorithm help is taken from http://pi.math.cornell.edu/~mec/Summer2009/meerkamp/Site/Solving_any_Sudoku_II.html and also proper architecture design is maintained.
 
